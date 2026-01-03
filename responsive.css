@@ -1,0 +1,176 @@
+/* =========================
+   Responsive Design
+   ========================= */
+
+/* =========================
+   Tablets (max-width: 1024px)
+   ========================= */
+@media (max-width: 1024px) {
+  /* Navigation */
+  .header .nav .nav-items {
+    gap: 30px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-section .hero-left .hero-info {
+    padding-right: 0;
+  }
+
+  .hero-section .hero-image img {
+    max-height: 300px;
+    width: 100%;
+  }
+
+  .hero-button {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Section spacing */
+  .section-title {
+    margin-top: 30px;
+  }
+
+  .discout-section {
+    margin-top: 30px;
+  }
+
+  /* Discount Section */
+  .discout-section .discount-card .discount-card-left {
+    gap: 10px;
+  }
+
+  .discout-section .discount-card .discount-card-left .discount-card-title h2 {
+    font-size: 18px;
+  }
+
+  .discout-section .discount-card .discount-card-price .disount-percentage {
+    font-size: 22px;
+  }
+
+  .discout-section .discount-card .discount-card-price .disount-amount {
+    font-size: 18px;
+  }
+
+  .discout-section .discount-card .discount-card-price .discount-card-del {
+    font-size: 12px;
+  }
+
+  .card-button {
+    padding: 3px 20px;
+    font-size: small;
+  }
+}
+
+/* =========================
+   Mobile (max-width: 768px)
+   ========================= */
+@media (max-width: 768px) {
+  /* Nav Top */
+  .header .navTop {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+
+  /* Main Navigation */
+  .header .nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header .nav .nav-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header .nav .nav-menus ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .header .nav .nav-search {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header .nav .nav-search input[type="search"] {
+    width: 100%;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    gap: 30px;
+  }
+
+  .hero-section .hero-left .hero-info h1 {
+    font-size: 28px;
+  }
+
+  .hero-section .hero-image img {
+    max-height: 300px;
+    width: 100%;
+  }
+
+  /* Discount Section */
+  .discout-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discout-section .discount-card {
+    flex-direction: column;
+  }
+
+  .discout-section .discount-card .discount-card-left,
+  .discout-section .discount-card .discount-card-image {
+    width: 100%;
+  }
+
+  /* Food Menu */
+  .food-menu {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   Small Mobile (max-width: 480px)
+   ========================= */
+@media (max-width: 480px) {
+  /* Section Title */
+  .section-title h2 {
+    font-size: 22px;
+  }
+
+  /* Buttons */
+  .button {
+    padding: 8px 20px;
+    font-size: medium;
+  }
+
+  /* Hero */
+  .hero-section .hero-left .hero-info h1 {
+    font-size: 24px;
+  }
+
+  /* Discount Text */
+  .discout-section .discount-card-price .disount-percentage {
+    font-size: 22px;
+  }
+
+  .discout-section .discount-card-price .disount-amount {
+    font-size: 18px;
+  }
+
+  /* Food Menu Cards */
+  .food-menu .food-menu-card {
+    font-size: 14px;
+  }
+}
