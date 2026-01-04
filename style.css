@@ -279,8 +279,8 @@ del {
 /* hero-image style end */
 /* hero section style end */
 
-/* discout-section style start  */
-.discout-section {
+/* discount-section style start  */
+.discount-section {
   display: flex;
   gap: 20px;
 }
@@ -293,7 +293,7 @@ del {
 .discount-gif img:hover{
   filter: hue-rotate(180deg);
 }
-.discout-section .discount-card {
+.discount-section .discount-card {
   flex: 1;
   gap: 10px;
   padding: 10px;
@@ -301,7 +301,7 @@ del {
   background: var(--bg-light);
 }
 
-.discout-section .discount-card .discount-card-left {
+.discount-section .discount-card .discount-card-left {
   display: flex;
   width: 60%;
   padding-left: 5px;
@@ -310,39 +310,40 @@ del {
   gap: 20px;
 }
 
-.discout-section .discount-card .discount-card-left .discount-card-title h2 {
+.discount-section .discount-card .discount-card-left .discount-card-title h2 {
   font-size: 22px;
+  user-select: none;
 }
-.discout-section .discount-card .discount-card-left .discount-card-title p {
+.discount-section .discount-card .discount-card-left .discount-card-title p {
   font-size: small;
 }
 
-.discout-section .discount-card .discount-card-price .disount-percentage {
+.discount-section .discount-card .discount-card-price .disount-percentage {
   font-size: 28px;
   color: var(--primary-muted);
 }
 
-.discout-section .discount-card .discount-card-price .disount-amount {
+.discount-section .discount-card .discount-card-price .disount-amount {
   font-size: 22px;
   color: var(--secondary);
 }
 
-.discout-section .discount-card .discount-button-section {
+.discount-section .discount-card .discount-button-section {
   display: flex;
   gap: 20px;
 }
 
-.discout-section .discount-card .discount-card-image{
+.discount-section .discount-card .discount-card-image{
   width: 40%;
 }
-.discout-section .discount-card .discount-card-image img {
+.discount-section .discount-card .discount-card-image img {
   border-radius: 10px;
   aspect-ratio:  1 / 1;
   transform-origin: 50%;
   background: 100% / cover no-repeat;
   width: 100%;
 }
-/* discout-section style end  */
+/* discount-section style end  */
 
 /* Food-Menu Items style Start */
 .food-menu {

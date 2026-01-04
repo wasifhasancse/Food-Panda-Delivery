@@ -37,28 +37,28 @@
     margin-top: 30px;
   }
 
-  .discout-section {
+  .discount-section {
     margin-top: 30px;
   }
 
   /* Discount Section */
-  .discout-section .discount-card .discount-card-left {
+  .discount-section .discount-card .discount-card-left {
     gap: 10px;
   }
 
-  .discout-section .discount-card .discount-card-left .discount-card-title h2 {
+  .discount-section .discount-card .discount-card-left .discount-card-title h2 {
     font-size: 18px;
   }
 
-  .discout-section .discount-card .discount-card-price .disount-percentage {
+  .discount-section .discount-card .discount-card-price .disount-percentage {
     font-size: 22px;
   }
 
-  .discout-section .discount-card .discount-card-price .disount-amount {
+  .discount-section .discount-card .discount-card-price .disount-amount {
     font-size: 18px;
   }
 
-  .discout-section .discount-card .discount-card-price .discount-card-del {
+  .discount-section .discount-card .discount-card-price .discount-card-del {
     font-size: 12px;
   }
 
@@ -69,15 +69,15 @@
 }
 
 @media (max-width: 999px){
-  .discout-section .discount-card {
+  .discount-section .discount-card {
     flex-direction: column-reverse;
   }
 
-  .discout-section .discount-card .discount-card-image img {
+  .discount-section .discount-card .discount-card-image img {
     aspect-ratio: 16 / 9;
 }
 
-.discout-section .discount-card .discount-card-left {
+.discount-section .discount-card .discount-card-left {
     display: flex;
     width: 100%;
     padding-left: 5px;
@@ -86,7 +86,7 @@
     gap: 20px;
 }
 
-.discout-section .discount-card .discount-card-image {
+.discount-section .discount-card .discount-card-image {
     width: 100%;
 }
 } 
@@ -143,21 +143,21 @@
   }
 
   /* Discount Section */
-  .discout-section {
+  .discount-section {
     display: flex;
     flex-direction: column;
   }
 
-  .discout-section .discount-card {
+  .discount-section .discount-card {
     flex-direction: column-reverse;
   }
 
-  .discout-section .discount-card .discount-card-left,
-  .discout-section .discount-card .discount-card-image {
+  .discount-section .discount-card .discount-card-left,
+  .discount-section .discount-card .discount-card-image {
     width: 100%;
   }
 
-  .discout-section .discount-card .discount-card-image img {
+  .discount-section .discount-card .discount-card-image img {
     aspect-ratio: 16 / 9;
 }
 
@@ -188,11 +188,11 @@
   }
 
   /* Discount Text */
-  .discout-section .discount-card-price .disount-percentage {
+  .discount-section .discount-card-price .disount-percentage {
     font-size: 22px;
   }
 
-  .discout-section .discount-card-price .disount-amount {
+  .discount-section .discount-card-price .disount-amount {
     font-size: 18px;
   }
 
