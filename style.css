@@ -139,6 +139,9 @@ del {
 .header .navTop .navTop-left {
   gap: 20px;
 }
+.header .navTop .navTop-left a{
+  text-decoration: none;
+}
 
 /* navTop style end  */
 
@@ -284,6 +287,11 @@ del {
 
 .discount-gif img{
   width: 70px;
+  transition: all .3s;
+}
+
+.discount-gif img:hover{
+  filter: hue-rotate(180deg);
 }
 .discout-section .discount-card {
   flex: 1;
