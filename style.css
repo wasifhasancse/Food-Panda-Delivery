@@ -281,6 +281,10 @@ del {
   display: flex;
   gap: 20px;
 }
+
+.discount-gif img{
+  width: 70px;
+}
 .discout-section .discount-card {
   flex: 1;
   gap: 10px;

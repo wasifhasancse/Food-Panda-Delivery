@@ -68,6 +68,29 @@
   }
 }
 
+@media (max-width: 999px){
+  .discout-section .discount-card {
+    flex-direction: column-reverse;
+  }
+
+  .discout-section .discount-card .discount-card-image img {
+    aspect-ratio: 16 / 9;
+}
+
+.discout-section .discount-card .discount-card-left {
+    display: flex;
+    width: 100%;
+    padding-left: 5px;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discout-section .discount-card .discount-card-image {
+    width: 100%;
+}
+} 
+
 /* =========================
    Mobile (max-width: 768px)
    ========================= */
@@ -126,13 +149,17 @@
   }
 
   .discout-section .discount-card {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .discout-section .discount-card .discount-card-left,
   .discout-section .discount-card .discount-card-image {
     width: 100%;
   }
+
+  .discout-section .discount-card .discount-card-image img {
+    aspect-ratio: 16 / 9;
+}
 
   /* Food Menu */
   .food-menu {
